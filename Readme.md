@@ -5,30 +5,36 @@ output: html_document
 Getting and Cleaning Data - Course Project
 
 
-Instructions for running the scripts
+Contents
+
+    1. run_analysis.R    - script to assemble, organize and analyze data
+    2. Readme.md         - this file - Overview
+    3. CodeBook.md       - details of output columns and data transformations
+
+
+Instructions for running the project scripts
 
     1. Download raw data from 
        http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
     2. Unzip file
     3. Set working directory to the unzipped data directory (UCI HAR Dataset)
-    4. Download script run_analysis.R
+    4. Download script run_analysis.R from this gitgub repo
+       https://github.com/gmukund/getting-and-cleaning-data-project
     5. source ('run_analysis.R')
     6. View (read.table("summ_Comb_Wide.txt"))
 
-Contents Files
-
-    1. run_analysis.R script to assemble, organize and analyze data
-    2. Readme. Rmd - Overview
-    3. CodeBook.Rmd - details of output columns and data transformation
-
 Output File : summ_Comb_Wide.txt
 
-Input Data Files
+Input Data Source
 
     http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+CodeBook.md
+
+    For details of specific files used within the data set, transformations to get to the tidy data set and the final output file format see attached CodeBook.md
 
 Working Directory
+
     Pre requisites for running this code
     Code assumes working directory where the Samsung data has been unzipped
     with subdirectories for Test and train data seperate
