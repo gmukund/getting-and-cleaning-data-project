@@ -7,25 +7,25 @@ Getting and Cleaning Data - Course Project
 
 Instructions for running the scripts
 
-1. Download raw data from 
-  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
-2. Unzip file
-3. Set working directory to the unzipped data directory (UCI HAR Dataset)
-4. Download script run_analysis.R
-5. source ('run_analysis.R')
-6. View (read.table("summ_Comb_Wide.txt"))
+    1. Download raw data from 
+       http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+    2. Unzip file
+    3. Set working directory to the unzipped data directory (UCI HAR Dataset)
+    4. Download script run_analysis.R
+    5. source ('run_analysis.R')
+    6. View (read.table("summ_Comb_Wide.txt"))
 
 Contents Files
 
-1. run_analysis.R script to assemble, organize and analyze data
-2. Readme. Rmd - Overview
-3. CodeBook.Rmd - details of output columns and data transformation
+    1. run_analysis.R script to assemble, organize and analyze data
+    2. Readme. Rmd - Overview
+    3. CodeBook.Rmd - details of output columns and data transformation
 
 Output File : summ_Comb_Wide.txt
 
 Input Data Files
 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+    http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 
 Working Directory
